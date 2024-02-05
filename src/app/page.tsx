@@ -1,11 +1,13 @@
 
+import Hero from '@/components/custom_compoents/hero_components/Hero'
+import OurServices from '@/components/custom_compoents/services_components/OurServices'
 import React from 'react'
 
 const page = () => {
   return (
     <>
-
-    <h1 className='text-center text-4xl font-bold text-red-500 p-5'>Home Page</h1>
+  <Hero/>
+  <OurServices/>
     </>
   )
 }

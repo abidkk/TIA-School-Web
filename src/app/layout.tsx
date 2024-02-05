@@ -22,7 +22,7 @@ export default function RootLayout({
         <div>
           <div className='hidden sm:block'><Navbar /></div>
           <div className='sm:hidden flex  items-center justify-between p-2 bg-[#1E3C21]'> <h1 className='text-xl font-bold text-white text-center'>The Islamic Academy </h1> <h2><SheetComp /></h2>  </div>
-          {children}
+          <div className="">{children}</div>
         </div>
 
       </body>
