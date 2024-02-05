@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import Navbar from '@/components/custom_compoents/Navbar'
+import { SheetComp } from '@/components/custom_compoents/SheetComp'
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -16,7 +18,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <div>
+          <div className='hidden sm:block'><Navbar /></div>
+          <div className='sm:hidden flex  items-center justify-between p-2 bg-[#1E3C21]'> <h1 className='text-xl font-bold text-white text-center'>The Islamic Academy </h1> <h2><SheetComp /></h2>  </div>
+          {children}
+        </div>
+
+      </body>
     </html>
   );
 }
