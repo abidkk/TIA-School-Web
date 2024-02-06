@@ -5,6 +5,8 @@ import OurFeatures from '@/components/custom_compoents/services_components/OurFe
 import OurServices from '@/components/custom_compoents/services_components/OurServices'
 import OurFaculty from '@/components/custom_compoents/services_components/OurFaculty'
 import Gallary from '@/components/custom_compoents/services_components/Gallary'
+import Statistics from '@/components/custom_compoents/Statistics'
+import ContactUs from '@/components/custom_compoents/ContactUs'
 
 const page = () => {
   return (
@@ -14,8 +16,10 @@ const page = () => {
   <OurFeatures/>
   <OurFaculty/>
   <Gallary/>
-  <div className='h-20 bg-white'></div>
+  <Statistics/>
   <Testimonials/>
+  <ContactUs/>
+  
     </>
   )
 }

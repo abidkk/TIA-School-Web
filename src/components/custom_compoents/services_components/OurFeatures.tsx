@@ -5,7 +5,7 @@ import design from "@/../public/design.jpg"
 const OurFeatures = () => {
     return (
         <>
-            <main className='px-4 sm:px-10   py-10 bg-[#1E3C21]   '>
+            <main className='px-4 sm:px-10   py-20 bg-[#1E3C21]   '>
                 <h1 className='text-center text-4xl font-bold text-white pb-5'>Our Features</h1>
 
                 <div className='p-2 flex flex-wrap justify-center gap-5 py-10'>
