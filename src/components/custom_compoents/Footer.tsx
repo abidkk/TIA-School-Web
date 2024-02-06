@@ -67,8 +67,8 @@ const Footer = () => {
 
 
                 {/* 03 Demo */}
-                <div className=' m-2 p-4  h-full'>
-                    <h3 className='font-bold bg-green-900 text-center py-2 mb-4'>Download Links</h3>
+                <div className='  p-2  h-full'>
+                    <h3 className='font-bold bg-green-900 text-white text-center py-2 mb-4'>Download Links</h3>
                     <ul>
                         <Link href={`/`}><li className='flex gap-2 items-center py-2 hover:text-green-300 duration-500'> <Download /> <p>Download School Admission Form</p> </li></Link>
                         <Link href={`/`}><li className='flex gap-2 items-center py-2 hover:text-green-300 duration-500'> <Download /> <p> Download Madressa Admission Form</p> </li></Link>
